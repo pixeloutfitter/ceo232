@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INFO HTML5 Template">
+
+  <title>Home - Developer</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="../assets/imgs/logo/favicon.png">
+
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../assets/css/progressbar.css">
+  <link rel="stylesheet" href="../assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/basictable.min.css">
+  <link rel="stylesheet" href="../assets/css/master-developer.css">
+
+
+</head>
+
+
+<body class="font-heading-estedad light">
+
+  <!-- Body Ovelay -->
+  <div class="body-overlay"></div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text="N" class="characters">N</span>
+          <span data-text="S" class="characters">S</span>
+          <span data-text="J" class="characters">J</span>
+          <span data-text="." class="characters">.</span>
+        </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+
+  <!-- Sroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">mode</p>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="dark">dark</button>
+          <button data-mode="light">light</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Language Support</p>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Layout</p>
+        </div>
+        <div class="switcher__btn layout-type wc-col-2">
+          <button class="active" data-mode="full-width">Full Width</button>
+          <button data-mode="box-layout">Box Layout</button>
+        </div>
+      </div>
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Cursor</p>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+  <!-- Offcanves start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOne">
+      <button class="offcanvas__close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      <div class="offcanvas__body">
+        <div class="offcanvas__logo">
+          <a href="index.html">
+            <img src="stell.png" class="show-dark" alt="Offcanvas Logo">
+            <img src="stell.png" class="show-light" alt="Offcanvas Logo">
+          </a>
+          <p>Create live segments and target the right people for messages based on their behaviors.</p>
+        </div>
+        <div class="offcanvas__menu-area d-block">
+          <div class="offcanvas__menu-wrapper"></div>
+        </div>
+        <div class="offcanvas__gallery">
+          <p class="offcanvas__title">gallery</p>
+          <div class="gallery__items">
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-2.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-3.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-4.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-5.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-6.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas__media">
+          <p class="offcanvas__title">Follow</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanves end -->
+
+  <nav class="offcanvas__menu">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li class="menu-item-has-children">
+        <a href="#">Pages</a>
+        <ul class="dp-menu">
+          <li><a href="index.html">home dark</a></li>
+          <li><a href="index-light.html">home light</a></li>
+          <li><a href="about.html">about dark</a></li>
+          <li><a href="about-light.html">about light</a></li>
+          <li><a href="service.html">service dark</a></li>
+          <li><a href="service-light.html">service light</a></li>
+          <li><a href="service-details.html">service details dark</a></li>
+          <li><a href="service-details-light.html">service details light</a></li>
+          <li><a href="blog.html">blog dark</a></li>
+          <li><a href="blog-light.html">blog light</a></li>
+          <li><a href="blog-details.html">blog details dark</a></li>
+          <li><a href="blog-details-light.html">blog details light</a></li>
+          <li><a href="contact.html">contact dark</a></li>
+          <li><a href="contact-light.html">contact light</a></li>
+        </ul>
+      </li>
+      <li class="menu-item-has-children">
+        <a href="#">project</a>
+        <ul class="dp-menu">
+          <li><a href="portfolio.html">project dark</a></li>
+          <li><a href="portfolio-light.html">project light</a></li>
+          <li><a href="portfolio-details.html">project details dark</a></li>
+          <li><a href="portfolio-details-light.html">project details light</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <div class="body-wrapper">
+        <!-- overlay switcher close  -->
+        <div class="overlay-switcher-close"></div>
+
+        <!-- Header area start -->
+        <header class="header__developer header-absolute">
+          <div class="header__inner menu-none">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="stell.png" class="show-dark" alt="Site Logo">
+                <img src="stell.png" class="show-light" alt="Site Logo">
+              </a>
+            </div>
+            <div class="header__nav-icon">
+              <button class="icon-circle" aria-label="icon-circle" id="open_offcanvas" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasOne">
+                <span class="menu-icon-2"><span></span></span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <!-- Header area end -->
+
+        <main>
+
+          <!-- Hero section start -->
+          <section class="developer-hero__area">
+            <div class="container g-0 line">
+              <div class="line-col-3">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
+                  <div class="developer-hero__left">
+
+                    <div class="pb-20 cf_typewriter has_fade_anim" data-on-scroll="0">
+                      <h1 class="typed_title color-primary">A Web
+                        <span id="typed_list">
+                          <span>Designer</span>
+                          <span>Developer</span>
+                          <span>programmer</span>
+                        </span>
+                        <span id="typed"></span>
+                      </h1>
+                    </div>
+
+                    <div class="pb-0">
+                      <h2 class="developer-hero__title has_text_reveal_anim" data-on-scroll="0" data-delay="0.65">
+                       Nihal sj </h2>
+                    </div>
+
+                    <div class="cf_text has_text_move_anim" data-on-scroll="0" data-delay="0.8">
+                      <p>Based in India</p>
+                    </div>
+
+                    <div class="follow_on_social_ml has_fade_anim" data-on-scroll="0" data-delay=".8">
+                      <div class="follow_on_social">
+                        <h3 class="follow-me">Follow Me</h3>
+                        <ul class="hover-zoom">
+                          <li><a href="#" aria-label="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+                          <li><a href="#" aria-label="social-icon"><i class="fa-brands fa-linkedin"></i></a></li>
+                          <li><a href="#" aria-label="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="#" aria-label="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
+                          <li><a href="#" aria-label="social-icon"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
+                  <div class="developer-hero__right">
+                    <div class="cf_image">
+                      <img src="409351759_384831540642450_6377343435798595402_n-removebg-preview.png" alt="Hero image">
+                    </div>
+                    <div class="developer-hero__info-wrapper">
+                      <div class="developer-hero__hello cf_badge has_fade_anim">
+                        <div class="say_hello ">
+                          <p>Say hello!</p>
+                          <a href="mailto:realnihalsj@gmail.com">realnihalsj@gmail.com</a>
+                        </div>
+                      </div>
+
+                      <div class="developer-hero__experience">
+                        <div class="work_process_experience">
+                          <div class="work_experience">
+                            <h3 class="experience"><span>5+</span> Years of <br>Experiences</h3>
+                          </div>
+                          <div class="work_process">
+                            <a href="../assets/video/developer-2.mp4" class="image-link video-popup">
+                              <i class="fa-solid fa-play"></i></a>
+                            <span>work <br> Process</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="../assets/imgs/shape/1.png" alt="Shape Image" class="hero-shape show-dark">
+            <img src="../assets/imgs/shape/6.png" alt="Shape Image" class="hero-shape show-light">
+          </section>
+          <!-- Hero section end -->
+
+
+          <!-- Skill section start -->
+          <section class="developer-skill__area">
+            <div class="container g-0 line pb-120 pt-130">
+              <div class="line-col-3">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="sec-title-wrapper">
+                    <div class="pb-20">
+                      <h2 class="sec-sub-title has_text_reveal_anim">SKills</h2>
+                    </div>
+                    <h3 class="sec-title has_text_reveal_anim">My Advantage</h3>
+                  </div>
+                  <div class="col-xxl-12">
+                    <div class="developer-skill__grid-3">
+                      <div class="skill__item has_fade_anim" data-fade-from="left" data-delay="0.5">
+                        <img src="../assets/imgs/skills/icon/1.png" alt="Skill Icon">
+                        <h4 class="percentage wc-counter">98%</h4>
+                        <h5 class="title">WordPress</h5>
+                      </div>
+                      <div class="skill__item has_fade_anim" data-fade-from="left" data-delay="0.6">
+                        <img src="../assets/imgs/skills/icon/2.png" alt="Skill Icon">
+                        <h4 class="percentage wc-counter">95%</h4>
+                        <h5 class="title">Figma</h5>
+                      </div>
+                      <div class="skill__item has_fade_anim" data-fade-from="left" data-delay="0.7">
+                        <img src="../assets/imgs/skills/icon/3.png" alt="Skill Icon">
+                        <h4 class="percentage wc-counter">86%</h4>
+                        <h5 class="title">Elementor</h5>
+                      </div>
+                      <div class="skill__item has_fade_anim" data-fade-from="left" data-delay="0.8">
+                        <img src="../assets/imgs/skills/icon/4.png" alt="Skill Icon">
+                        <h4 class="percentage wc-counter">73%</h4>
+                        <h5 class="title">SKETCH</h5>
+                      </div>
+                      <div class="skill__item has_fade_anim" data-fade-from="left" data-delay="0.9">
+                        <img src="../assets/imgs/skills/icon/5.png" alt="Skill Icon">
+                        <h4 class="percentage wc-counter">62%</h4>
+                        <h5 class="title">JavaScript</h5>
+                      </div>
+                      <div class="skill__item has_fade_anim" data-fade-from="left" data-delay="1">
+                        <img src="../assets/imgs/skills/icon/6.png" alt="Skill Icon">
+                        <h4 class="percentage wc-counter">98%</h4>
+                        <h5 class="title">HTML & CSS</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Skill section end -->
+
+
+          <!-- Resume section start -->
+          <section class="developer-resume__area">
+            <div class="developer-about__top-wrapper">
+              <div class="swiper developer-about__slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h3 class="developer-about__slide">about me</h3>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="developer-about__slide">about me</h3>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="developer-about__slide">about me</h3>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="developer-about__slide">about me</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="developer-about__top">
+                <div class="container g-0 line">
+                  <div class="line-col-3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xxl-12">
+                      <div class="work_experience-2">
+                        <span class="experience text">5<span>+</span></span>
+                        <h3 class="experience-title has_text_reveal_anim">years <br> <span>of experience</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="developer-resume__content">
+              <div class="container g-0 line">
+                <div class="line-col-3">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xxl-12">
+                    <div class="sec-title-wrapper">
+                      <div class="pb-20">
+                        <h2 class="sec-sub-title has_char_anim">Resume</h2>
+                      </div>
+                      <h3 class="sec-title has_text_reveal_anim">My Resume</h3>
+                    </div>
+                  </div>
+                  <div class="col-xxl-12">
+                    <div class="developer-resume__tab-wrapper">
+                      <div class="developer-resume__tab-menu">
+                        <ul>
+                          <li class="has_fade_anim" data-fade-from="left" data-delay="0.5"><a href="#" class="active"
+                              data-rel="resume-tab-1">about me</a></li>
+                          <li class="has_fade_anim" data-fade-from="left" data-delay="0.5"><a href="#"
+                              data-rel="resume-tab-2" class="">experience</a></li>
+                        
+                          <li class="has_fade_anim" data-fade-from="left" data-delay="0.5"><a href="#"
+                              data-rel="resume-tab-4" class="">skills</a></li>
+                          <li class="has_fade_anim" data-fade-from="left" data-delay="0.5"><a href="#"
+                              data-rel="resume-tab-5" class="">awards</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="developer-resume__tab-list">
+                        <div class="developer-resume-tab-box" id="resume-tab-1" style="display: block;">
+                          <div class="developer-about__area">
+                            <div class="developer-about__content">
+                              <h2 class="developer-about__title has_text_reveal_anim">Web Designer,Developer , and the CEO & Founder of Stellxr</h2>
+                              <div class="cf_text has_text_move_anim">
+                                <p> <strong class="color-white">Nihal Sj</strong>  is the force behind Stellxr, where he wears multiple hats as the Web Designer, Developer, and CEO & Founder. His compact title belies the powerful impact he brings to the digital realm. With a knack for creating sleek and impactful web designs, Nihal's proficiency extends beyond aesthetics, delving into the intricacies of web development. As the driving force behind Stellxr, he embodies the perfect blend of creativity and technical prowess, crafting a strong and influential presence in the digital space.
+                                </p>
+                              </div>
+                              <ul class="about__bio has_text_move_anim">
+                                <li>Name <span>:</span> <strong>Nihal sj</strong></li>
+                                <li>Nationality <span>:</span> <strong>India</strong></li>
+                                <li>Phone <span>:</span> <strong>+(91) 9037452346</strong></li>
+                                <li>Email <span>:</span> <strong>realnihalsj@gmail.com</strong></li>
+                                <li>Experience <span>:</span> <strong>5+ years</strong></li>
+                                <li>Freelance <span>:</span> <strong>Available</strong></li>
+                               
+                                <li>Language <span>:</span> <strong>English,Malayalam,Hindi</strong></li>
+                              </ul>
+                            </div>
+                            <div class="developer-about__img cf_image has_fade_anim">
+                              <img src="409351759_384831540642450_6377343435798595402_n-removebg-preview.png" alt="About Me" class="about-me">
+                              <img src="../assets/imgs/shape/3.png" alt="Shape Image" class="about-shape-1">
+                              <img src="../assets/imgs/shape/4.png" alt="Shape Image" class="about-shape-2">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="developer-resume-tab-box" id="resume-tab-2">
+                          <div class="developer-experience__area">
+                            <div class="experience__grid">
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span>
+                                </h2>
+                                <h3 class="exp-title">Web Design</h3>
+                                <h4 class="company">stellxr</h4>
+                                <p>Transform your digital presence with our expert Web Design service, where innovative design meets seamless functionality. We craft visually stunning and user-friendly websites tailored to elevate your brand and engage your audience</p>
+                              </div>
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span> 
+                                </h2>
+                                <h3 class="exp-title">Web Development</h3>
+                                <h4 class="company">Stellxr</h4>
+                                <p>Elevate your online capabilities with our Web Development expertise. From robust backend functionality to intuitive user interfaces, we specialize in creating dynamic and scalable web solutions that propel your digital presence to new heights."</p>
+                              </div>
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span>  
+                                  
+                                </h2>
+                                <h3 class="exp-title">
+                                  
+                                  Graphic Design</h3>
+                                <h4 class="company">Stellxr</h4>
+                                <p>"Capture attention and make a statement with our Poster Designing service. Our creative team blends compelling visuals with strategic messaging to craft eye-catching posters that leave a lasting impression, ensuring your message stands out in any crowd."</p>
+                              </div>
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span> 
+                                </h2>
+                                <h3 class="exp-title">Computer Works</h3>
+                                <h4 class="company">Stellxr</h4>
+                                <p>I do also offer other helps with computer.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="developer-resume-tab-box" id="resume-tab-3">
+                          <div class="developer-experience__area">
+                            <div class="experience__grid">
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span> 2017 -
+                                  2019
+                                </h2>
+                                <h3 class="exp-title">Senior UI Designer</h3>
+                                <h4 class="company">Historian</h4>
+                                <p>Owing to advancements in product other designer technologies, chatbots have increased
+                                  into greater popularity in the past few years.</p>
+                              </div>
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span> 2017 -
+                                  2019
+                                </h2>
+                                <h3 class="exp-title">Senior UI Designer</h3>
+                                <h4 class="company">Historian</h4>
+                                <p>Owing to advancements in product other designer technologies, chatbots have increased
+                                  into greater popularity in the past few years.</p>
+                              </div>
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span> 2017 -
+                                  2019
+                                </h2>
+                                <h3 class="exp-title">Senior UI Designer</h3>
+                                <h4 class="company">Historian</h4>
+                                <p>Owing to advancements in product other designer technologies, chatbots have increased
+                                  into greater popularity in the past few years.</p>
+                              </div>
+                              <div class="experience__item">
+                                <h2 class="exp-time"><span><i class="fa-regular fa-calendar-days"></i></span> 2017 -
+                                  2019
+                                </h2>
+                                <h3 class="exp-title">Senior UI Designer</h3>
+                                <h4 class="company">Historian</h4>
+                                <p>Owing to advancements in product other designer technologies, chatbots have increased
+                                  into greater popularity in the past few years.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="developer-resume-tab-box" id="resume-tab-4">
+                          <div class="developer-skill__grid">
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="95">Figma</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="80">Adobe XD</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="85">Sketch</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="75">Prototype</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="75">WrodPress</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="75">React JS</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="75">Laravel</h3>
+                            </div>
+                            <div class="progress__item">
+                              <h3 class="progress__label" data-width="75">WIrframe</h3>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="developer-resume-tab-box" id="resume-tab-5">
+                          <div class="developer-award__area">
+                            <div class="developer-award__grid">
+                              <div class="award__item">
+                                <h2 class="award__date">01 <span>2018</span></h2>
+                                <img src="https://mela.kite.kerala.gov.in/2022/district/assets/img/sas_logo.jpg" class="show-dark" alt="Award Image">
+                                <img src="https://mela.kite.kerala.gov.in/2022/state/assets/img/sas_thb.jpg" class="show-light" alt="Award Image">
+                                <h3 class="award__title">WEB DESIGNING STATE LEVEL 1ST</h3>
+                                <h4 class="award__status">1ST</h4>
+                              </div>
+                              <div class="award__item">
+                                <h2 class="award__date">01 <span>2018</span></h2>
+                                <img src="../assets/imgs/award/2.png" class="show-dark" alt="Award Image">
+                                <img src="https://2.bp.blogspot.com/-fG-0Mv5oRpc/VkAbhOM5g-I/AAAAAAAADQs/w_3QA6ALA7E/s1600/SASTHRAMELA%2BlOGO1.jpg" class="show-light" alt="Award Image">
+                                <h3 class="award__title">WEB DESIGNING STATE LEVEL A GRADE</h3>
+                                <h4 class="award__status"></h4>
+                              </div>
+                              <div class="award__item">
+                                <h2 class="award__date">01 <span>2018</span></h2>
+                                <img src="../assets/imgs/award/3.png" class="show-dark" alt="Award Image">
+                                <img src="data:image/png;base64,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" class="show-light" alt="Award Image">
+                                <h3 class="award__title">Yip most idea submittion school support</h3>
+                                <h4 class="award__status"></h4>
+                              </div>
+                              <div class="award__item">
+                                <h2 class="award__date">01 <span>2018</span></h2>
+                                <img src="../assets/imgs/award/4.png" class="show-dark" alt="Award Image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kerala_StartUp_Mission_Logo.svg/640px-Kerala_StartUp_Mission_Logo.svg.png" class="show-light" alt="Award Image">
+                                <h3 class="award__title">Startup mission best project</h3>
+                                <h4 class="award__status">winner</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- About section end -->
+
+
+          <!-- Portfolio section end -->
+          <section class="developer-portfolio__area">
+            <div class="container g-0 line pt-120 pb-60">
+              <div class="line-col-3">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <div class="sec-title-wrapper">
+                    <div class="pb-15">
+                      <h2 class="sec-sub-title has_char_anim">Portfolio</h2>
+                    </div>
+                    <h3 class="sec-title has_text_reveal_anim">My recent <br> work</h3>
+                  </div>
+                </div>
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                  <div class="sec-text-width cf_text has_text_move_anim">
+                    <p>My recent works that inform and provoke with creative <span>web & app developer</span> who dream
+                      the world better place by creating captivating products.</p>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                  <div class="sec-btn cf_btn_link has_fade_anim">
+             
+                        <i class="fa-solid fa-arrow-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper developer-portfolio__slider" data-autoplay="true" data-items="3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide ">
+                    <a href="portfolio-details.html">
+                      <img src="1.png" alt="Portfolio Image">
+                      <h2 class="developer-portfolio__title">WEBSITE</h2>
+                      <h3 class="developer-portfolio__date">stellxr</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="portfolio-details.html">
+                      <img src="2.png" alt="Portfolio Image">
+                      <h2 class="developer-portfolio__title">WEBSITE</h2>
+                      <h3 class="developer-portfolio__date">stellxr</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide has_fade_items_anim">
+                  <div class="developer-portfolio__slide">
+                    <a href="portfolio-details.html">
+                      <img src="3.png" alt="Portfolio Image">
+                      <h2 class="developer-portfolio__title">WEBSITE</h2>
+                      <h3 class="developer-portfolio__date">stellxr</h3>
+                    </a>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+
+            <div class="container line pb-120">
+              <div class="line-col-3">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </section>
+          <!-- Portfolio section start -->
+
+
+          <!-- Service section start -->
+     
+
+
+       
+\
+        <!-- Footer section start -->
+        <footer class="footer__area pb-0">
+          <div class="footer__top">
+            <div class="container line g-0">
+              <div class="line-col-3">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-3">
+                  <div class="footer__logo">
+                    <a href="index.html"><img src="stell.png" class="show-dark"
+                        alt="Footer Logo"></a>
+                    <a href="index.html"><img src="stell.png" class="show-light"
+                        alt="Footer Logo"></a>
+                  </div>
+                </div>
+                <div class="col-xxl-9 col-xl-9 col-lg-9">
+                  <div class="footer__info">
+                    <div class="footer__contact">
+                      <h3 class="footer__title">Contact</h3>
+                      <a href="tel:+(2)871382023" class="footer__link">9037452346</a>
+                    </div>
+                    <div class="footer__email">
+                      <h3 class="footer__title">Email</h3>
+                      <a href="mailto:hello@joyamen.com" class="footer__link">realnihalsj@gmail.com</a>
+                    </div>
+                    <div class="footer__social">
+                      <h3 class="footer__title">Follow</h3>
+                      <ul class="hover-zoom">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__btm">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="copyright">
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Footer section end -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- All JS files -->
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/swiper-bundle.min.js"></script>
+  <script src="../assets/js/counter.js"></script>
+  <script src="../assets/js/typed.js"></script>
+  <script src="../assets/js/mixitup.min.js"></script>
+  <script src="../assets/js/progressbar.js"></script>
+  <script src="../assets/js/gsap.min.js"></script>
+  <script src="../assets/js/ScrollSmoother.min.js"></script>
+  <script src="../assets/js/ScrollToPlugin.min.js"></script>
+  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/SplitText.min.js"></script>
+  <script src="../assets/js/TweenMax.min.js"></script>
+  <script src="../assets/js/jquery.meanmenu.min.js"></script>
+  <!-- <script src="../assets/js/beforeafter.jquery-1.0.0.min.js"></script> -->
+  <!-- <script src="../assets/js/basictable.min.js"></script> -->
+  <script src="../assets/js/backToTop.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/error-handling.js"></script>
+  <script src="../assets/js/offcanvas.js"></script>
+  <script src="../assets/js/wc-cursor.js"></script>
+
+</body>
+
+</html>
